@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F7022BC1293FA9A300CA7F1D /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7022BC0293FA9A300CA7F1D /* APIResponse.swift */; };
 		F71368B52939F8AD00249899 /* IP_Address_LocationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71368B42939F8AD00249899 /* IP_Address_LocationApp.swift */; };
 		F71368B72939F8AD00249899 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71368B62939F8AD00249899 /* ContentView.swift */; };
 		F71368B92939F8AE00249899 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F71368B82939F8AE00249899 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F7022BC0293FA9A300CA7F1D /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
 		F71368B12939F8AD00249899 /* IP_Address_Location.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IP_Address_Location.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F71368B42939F8AD00249899 /* IP_Address_LocationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IP_Address_LocationApp.swift; sourceTree = "<group>"; };
 		F71368B62939F8AD00249899 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F7022BBF293FA98700CA7F1D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F7022BC0293FA9A300CA7F1D /* APIResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		F71368A82939F8AD00249899 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +61,7 @@
 		F71368B32939F8AD00249899 /* IP_Address_Location */ = {
 			isa = PBXGroup;
 			children = (
+				F7022BBF293FA98700CA7F1D /* Model */,
 				F71368B42939F8AD00249899 /* IP_Address_LocationApp.swift */,
 				F71368B62939F8AD00249899 /* ContentView.swift */,
 				F71368B82939F8AE00249899 /* Assets.xcassets */,
@@ -139,6 +150,7 @@
 			files = (
 				F71368B72939F8AD00249899 /* ContentView.swift in Sources */,
 				F71368B52939F8AD00249899 /* IP_Address_LocationApp.swift in Sources */,
+				F7022BC1293FA9A300CA7F1D /* APIResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
