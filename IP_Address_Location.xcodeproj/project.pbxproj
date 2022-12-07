@@ -12,6 +12,7 @@
 		F71368B72939F8AD00249899 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71368B62939F8AD00249899 /* ContentView.swift */; };
 		F71368B92939F8AE00249899 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F71368B82939F8AE00249899 /* Assets.xcassets */; };
 		F71368BC2939F8AE00249899 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F71368BB2939F8AE00249899 /* Preview Assets.xcassets */; };
+		F7EA5EC62940EBBD009AC5FE /* IPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EA5EC52940EBBD009AC5FE /* IPManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		F71368B62939F8AD00249899 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F71368B82939F8AE00249899 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F71368BB2939F8AE00249899 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F7EA5EC52940EBBD009AC5FE /* IPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		F71368B32939F8AD00249899 /* IP_Address_Location */ = {
 			isa = PBXGroup;
 			children = (
+				F7EA5EC42940EBA2009AC5FE /* ViewModel */,
 				F7022BBF293FA98700CA7F1D /* Model */,
 				F71368B42939F8AD00249899 /* IP_Address_LocationApp.swift */,
 				F71368B62939F8AD00249899 /* ContentView.swift */,
@@ -76,6 +79,14 @@
 				F71368BB2939F8AE00249899 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F7EA5EC42940EBA2009AC5FE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F7EA5EC52940EBBD009AC5FE /* IPManager.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +161,7 @@
 			files = (
 				F71368B72939F8AD00249899 /* ContentView.swift in Sources */,
 				F71368B52939F8AD00249899 /* IP_Address_LocationApp.swift in Sources */,
+				F7EA5EC62940EBBD009AC5FE /* IPManager.swift in Sources */,
 				F7022BC1293FA9A300CA7F1D /* APIResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
